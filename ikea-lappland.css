@@ -53,23 +53,26 @@
 }
 
 #bottom-row {
-  display: inline;
-
+  display: inline;;
 }
 
 #bottom-row #bottom-center-left {
   border-top: 4px solid green;
   border-right: 4px solid green;
+  float: right;
 }
 
 #bottom-row #bottom-center-center {
   border-top: 4px solid blue;
   border-right: 4px solid blue;
+  float: right;
+  position: relative;
 }
 
 #bottom-row #bottom-center-right {
   border-top: 4px solid orange;
   border-right: 4px solid orange;
+  float: right;
 
 }
 
