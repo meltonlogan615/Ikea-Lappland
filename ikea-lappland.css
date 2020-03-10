@@ -1,0 +1,79 @@
+@import url("reset.css");
+
+:root {
+  --box-color: rgb(73, 73, 73);
+
+}
+
+#main {
+  margin: auto;
+  margin-top: 2em;
+  border: 8px solid var(--box-color);
+  width: 366px;
+  height: 294px;
+}
+
+.box {
+  width: 72px;
+  height: 72px;
+}
+
+#left-column #top-left {
+  border-right: 4px solid var(--box-color);
+  border-bottom: 4px solid var(--box-color);
+
+}
+
+#left-column #center-top-left {
+  border-right: 4px solid var(--box-color);
+  border-bottom: 4px solid var(--box-color);
+}
+
+#left-column #center-bottom-left {
+  border-right: 4px solid var(--box-color);
+  border-bottom: 4px solid var(--box-color);
+
+}
+
+
+#lower-console {
+  height: 20px;
+  margin-top: 3px solid var(--box-color);
+}
+
+#large {
+
+}
+
+
+#bottom-row #bottom-left {
+  position: relative;
+  border-right: 4px solid var(--box-color);
+
+}
+
+#bottom-row {
+  display: inline;
+
+}
+
+#bottom-row #bottom-center-left {
+  border-top: 4px solid green;
+  border-right: 4px solid green;
+}
+
+#bottom-row #bottom-center-center {
+  border-top: 4px solid blue;
+  border-right: 4px solid blue;
+}
+
+#bottom-row #bottom-center-right {
+  border-top: 4px solid orange;
+  border-right: 4px solid orange;
+
+}
+
+#bottom-row #bottom-right {
+  border-top: 4px solid red;
+  float: right;
+}
