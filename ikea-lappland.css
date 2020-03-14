@@ -9,8 +9,10 @@
   margin: auto;
   margin-top: 2em;
   border: 8px solid var(--box-color);
-  width: 366px;
-  height: 294px;
+  min-width: 366px;
+  max-width: 400px;
+  min-width: 294px;
+  background: rosybrown;
 }
 
 .box {
@@ -21,63 +23,55 @@
 #left-column #top-left {
   border-right: 4px solid var(--box-color);
   border-bottom: 4px solid var(--box-color);
+  background: royalblue;
 
 }
 
 #left-column #center-top-left {
   border-right: 4px solid var(--box-color);
   border-bottom: 4px solid var(--box-color);
+  background: seagreen;
 }
 
 #left-column #center-bottom-left {
   border-right: 4px solid var(--box-color);
   border-bottom: 4px solid var(--box-color);
-
+  background: sienna;
 }
 
 
-#lower-console {
-  height: 20px;
-  margin-top: 3px solid var(--box-color);
+#bottom-row {
+  display: inline;
 }
-
-#large {
-  background-color: antiquewhite;
-}
-
 
 #bottom-row #bottom-left {
   position: relative;
   border-right: 4px solid var(--box-color);
-
-}
-
-#bottom-row {
-  display: inline;
-  margin-bottom: 72px;
+  background: slateblue;
 }
 
 #bottom-row #bottom-center-left {
-  border-top: 4px solid green;
-  border-right: 4px solid green;
+  background: green;
   float: right;
+  border-top: 4px solid var(--box-color);
 }
 
 #bottom-row #bottom-center-center {
-  border-top: 4px solid blue;
-  border-right: 4px solid blue;
+  background: blue;
   float: right;
   position: relative;
+  border-top: 4px solid var(--box-color);
 }
 
 #bottom-row #bottom-center-right {
-  border-top: 4px solid orange;
-  border-right: 4px solid orange;
+  background: orange;
   float: right;
-
+  border-top: 4px solid var(--box-color);
 }
 
 #bottom-row #bottom-right {
-  border-top: 4px solid red;
+  background: red;
   float: right;
+  margin-bottom: 72px;
+  border-top: 4px solid var(--box-color);
 }
