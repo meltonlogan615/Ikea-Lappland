@@ -1,18 +1,21 @@
 @import url("reset.css");
 
 :root {
-  --box-color: rgb(73, 73, 73);
+  --box-color: rgb(0, 0, 0);
+  --Smellyfacemonkybutt: rgb(193, 173, 201);
 
 }
 
 .main {
   margin: auto;
-  margin-top: 2em;
+  margin-top: 10%;
   border: 8px solid var(--box-color);
-  min-width: 366px;
-  max-width: 400px;
-  min-width: 294px;
-  background: rosybrown;
+  max-width: 380px;
+  height: auto;
+  background: rgba(188, 187, 189);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .box {
@@ -23,55 +26,64 @@
 #left-column #top-left {
   border-right: 4px solid var(--box-color);
   border-bottom: 4px solid var(--box-color);
-  background: royalblue;
-
+  background: rgb(217, 160, 160);
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
 }
 
 #left-column #center-top-left {
   border-right: 4px solid var(--box-color);
   border-bottom: 4px solid var(--box-color);
-  background: seagreen;
+  background: rgb(204, 157, 116);
+  grid-column: 1 / 1;
+  grid-row: 2 / 1;
+  
 }
 
 #left-column #center-bottom-left {
   border-right: 4px solid var(--box-color);
   border-bottom: 4px solid var(--box-color);
-  background: sienna;
+  background: rgb(237, 232, 154);
+  grid-column: 1 / 1;
+  grid-row: 3 / 1;
 }
 
 
-#bottom-row {
-  display: inline;
+
+
+.bottom-row {
+  display: gridˀ;
 }
 
-#bottom-row #bottom-left {
-  position: relative;
+.bottom-row #bottom-left {
+  background: rgb(162, 189, 153);
   border-right: 4px solid var(--box-color);
-  background: slateblue;
+  grid-column: 1 / 1;
+  grid-row: 4 / 1;
 }
 
-#bottom-row #bottom-center-left {
-  background: green;
-  float: right;
-  border-top: 4px solid var(--box-color);
+.bottom-row #bottom-center-left {
+  background: rgb(193, 173, 201);
+  grid-column: 2 / 1;
+  grid-row: 4 / 1;
 }
 
-#bottom-row #bottom-center-center {
-  background: blue;
-  float: right;
+.bottom-row #bottom-center-center {
+  background: rgb(169, 164, 224);
+  border-right: 4px solid var(--box-color);
   position: relative;
-  border-top: 4px solid var(--box-color);
+  
 }
 
-#bottom-row #bottom-center-right {
-  background: orange;
-  float: right;
-  border-top: 4px solid var(--box-color);
+.bottom-row #bottom-center-right {
+  background: rgb(133, 160, 214);
+  border-right: 4px solid var(--box-color);
+  position: relative;
 }
 
-#bottom-row #bottom-right {
-  background: red;
-  float: right;
-  margin-bottom: 72px;
-  border-top: 4px solid var(--box-color);
+.bottom-row #bottom-right {
+  background: rgb(176, 214, 212);
+  border-right: 4px solid var(--box-color);
+  padding-inline-start: initial;
+  
 }
